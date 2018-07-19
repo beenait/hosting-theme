@@ -1,0 +1,268 @@
+body{
+  background-color:#f4f4f4;
+  font-family: Arial  serif sans-serif ;
+  margin: 0;
+  padding: 0;
+}
+
+/*Global styling*/
+.container{
+  width:90%;
+  margin: auto;
+}
+h1, h2, h3, h4, h5{
+  margin: 0;
+}
+.clearing{
+  clear: both;
+}
+.main-title{
+  text-align: center;
+  font-size: 13px;
+  color: #2160c2;
+  padding: 30px;
+}
+/*Header secton*/
+.header{
+  position: relative;
+  background: #fff;
+  color: blue;
+  margin: 0;
+  padding:25px;
+}
+.header{
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.header .navigate{
+  position: absolute;
+  top: 0;
+  right: 10%;
+}
+.header h1{
+  position:absolute;
+  top:10px;
+  left: 5%;
+  margin: 0;
+  padding:0;
+}
+.header
+.navigate li{
+  display: inline;
+  list-style: none;
+}
+.header
+.navigate a{
+  color: blue;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-right: 10px;
+}
+
+/*Showcase Section*/
+.slider{
+  position: relative;
+  background: url('/img/abstract.jpg')no-repeat -300px center;
+  min-height: 400px;
+}
+.slider h1{
+  position: absolute;
+  top:88px;
+  right: 37%;
+  color: #fff;
+  font-size: 30px;
+  text-transform:uppercase;:
+}
+
+.slider form{
+  position: absolute;
+  top: 150px;
+  width: 70%;
+  right: 10px;
+  margin: auto;
+
+}
+.slider form input[type="search"]{
+  height:45px;
+  width: 30%;
+  background-color: #fff;
+  opacity: .87;
+  border: 3px #fff solid;
+  padding-left: 10px;
+
+
+}
+.slider form input[type="submit"]{
+  height:45px;
+  width:10%;
+  margin-left: -5px;
+  background-color: #4d4a51;
+  border: 3px #fff solid;
+  opacity: .87;
+  color: #fff;
+}
+.slider form .trans{
+  background-color: #302a62 !important;
+  border: 3px #fff solid;
+  opacity: .87;
+}
+/*Hosting table section*/
+.host-tabular{
+  position: relative;
+  width: 70%;
+  margin: auto;
+
+
+}
+.host-tabular .host-title{
+  background-color: #2160c2;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+  padding: 8px 0;
+}
+.host-tabular .tab-data{
+  background-color: #fff;
+  text-align: center;
+  border-bottom: dotted 1px #CCC;
+  padding: 10px 0;
+}
+.host-tabular .tab-data h4{
+  padding: 10px 0;
+}
+.host-tabular .tab-price{
+  background-color: #fff;
+  text-align: center;
+
+}
+.host-tabular .tab-price h2{
+  color: #2160c2;
+  font-weight: normal;
+  font-family: sans-serif;
+  font-size: 16px;
+  padding: 5px 0;
+
+}
+.host-tabular .tab-price h5{
+  color: #525252;
+  font-weight: normal;
+  font-family: sans-serif;
+  padding: 5px 0;
+}
+
+.host-tabular button{
+  background-color: #4d4a51;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+  border: 1px #4d4a51 solid;
+}
+.host-tabular button:hover{
+  background-color: #CCC;
+  color: #000;
+}
+.host-tabular .hosting-1{
+  position: absolute;
+  width: 30%;
+  top: 0;
+  right: 82%;
+}
+
+.host-tabular .hosting-2{
+  position: absolute;
+  width: 30%;
+  top: 0;
+  left: 20%;
+}
+.host-tabular .hosting-3{
+  position: absolute;
+  width: 30%;
+  top: 0;
+  left: 52%;
+}
+.host-tabular .hosting-4{
+  position: absolute;
+  width: 30%;
+  top: 0;
+  left: 84%;
+}
+
+.tab-data h4{
+  font-family: Montserrat;
+  font-size: 14px;
+  font-weight: normal;
+  color: #525252;
+}
+
+/*featured box section*/
+.top-featured{
+  top: 850px;
+  position: absolute;
+  width: 100%;
+  text-align: center;
+
+}
+.featured-hold{
+  background-color: #fff;
+  position: relative;
+  height: 300px;
+}
+.featured-hold h2{
+  padding: 5px;
+  margin-bottom: 5px;
+}
+.featured-hold p{
+  width: 50%;
+  margin: auto;
+  font-weight: normal;
+  font-family: serif;
+}
+.featured-hold .top-feat-box-1{
+  position: absolute;
+  top: 10%;
+  right: 63%;
+
+}
+.featured-hold .top-feat-box-2{
+  position: absolute;
+  top: 10%;
+  left: 22%;
+
+}
+.featured-hold .top-feat-box-3{
+  position: absolute;
+  top: 10%;
+  left: 42%
+}
+.featured-hold .top-feat-box-4{
+  position: absolute;
+  top: 10%;
+  left:  63%;
+
+}
+.sub-footer{
+  background-color: #bdd3f5;
+  top: 1280px;
+  position: absolute;
+  width: 100%;
+  max-height: 300px;
+  color:#000;
+}
+
+.footer{
+  background-color: #2160c2;
+  top: 1500px;
+  position: absolute;
+  width: 100%;
+  height: 40px;
+  padding: 20px 0 0 0;
+  color:#fff;
+}
+.footer span{
+  position: absolute;
+  left: 80%;
+  text-transform: uppercase;
+}
